@@ -1,0 +1,92 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    background-color: white;
+    height:5vh;
+    top:0;
+    position:sticky;
+    width:100%;
+}
+nav{
+    display: flex;
+    
+}
+a{
+    margin:8px;
+    text-decoration: none;
+    color:black;
+}
+nav a:hover{
+    color:orangered;
+}
+.blu{
+    color:darkblue;
+}
+.org{
+    color:orange;
+}
+.bannerkatext{
+    text-align: center;
+    background-image: url(image/banner-bg.webp);
+    background-position: center;
+    background-size: cover;
+    height: 27vh;
+    padding:30px;
+    
+}
+.midtext{
+    width:50%;
+    margin:auto;
+}
+.superbtn{
+    border:1.5px black solid;
+    padding:4px;
+    border-radius:2px;
+    
+    display: inline-block;
+}
+.superbtn:hover{
+    background-color: orange;
+}
+.reviewofcollege h2{
+    text-align: center;
+}
+.review{
+    background-color: orange;
+    padding:2px;
+}
+.feedback{
+    text-align: center;
+    border:2px solid black;
+    
+}
+.feed{
+    border-radius: 100%;
+
+}
+.feedback:hover{
+    border:2px solid blue;
+}
+.blogs h2{
+    text-align:center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+    padding:40px;
+}
+.container img{
+    width:100%;
+}
+.profile{
+    border:2px solid black;
+    border-radius: 5px;
+    background-color:white;
+    padding:10px;
+}
+.bottom{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
